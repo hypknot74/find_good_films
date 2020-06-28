@@ -24,3 +24,4 @@
 - 主演
 
 この指標を踏まえて、提案するコスパの良い映画を観るための手順が下の図にまとめられている。
+![demo](https://github.com/hypknot74/find_good_films/blob/master/analysis2.png)
