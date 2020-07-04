@@ -188,4 +188,6 @@ webサイトからの情報抽出について、[クローリング](https://git
 ## 個人的な意見
 「コスパの良い作品」というフレーズを使っていますが、「評価と視聴者数がともに高い作品」は冗長だったので便宜的に使いました。\
 観る映画をコスパで決めるという考え方は好きじゃないですが、そういうのもありだと思います。\
+↓My Filmraks Account
 
+<img src="https://github.com/hypknot74/find_good_films/blob/master/Filmarks_my_account.JPG" width="320px">
