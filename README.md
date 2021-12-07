@@ -34,14 +34,14 @@
 この指標を踏まえて、提案するコスパの良い映画を観るための手順が下の図です。
 
 
-![Proposal_Procedure](https://github.com/hypknot74/find_good_films/blob/master/Proposal_Procedure.png)
+![Proposal_Procedure](images/Proposal_Procedure.png)
 
 
 この手順で出会える映画が下の図に載っています。\
 今後出てくる映画でもこの手順に該当すればコスパの良い作品だと予想されます。
 
 
-![re_film](https://github.com/hypknot74/find_good_films/blob/master/re_film.png)
+![re_film](images/re_film.png)
 
 
 ### 3. データ収集
@@ -50,13 +50,13 @@
 このサイトでは評価は0.1点刻み、１〜５点で評価できます。\
 ↓赤で囲まれた箇所を変数として取った
 
-![web_site_ex](https://github.com/hypknot74/find_good_films/blob/master/web_site_ex.png)
+![web_site_ex](images/web_site_ex.png)
 
 
 ↓上のページから取れた変数の表
 
 
-![variables](https://github.com/hypknot74/find_good_films/blob/master/variables.png)
+![variables](images/variables.png)
 
 
 ### 4. データ分析
@@ -64,7 +64,7 @@
 評価されていない作品は比較することができず、vod対応していないと外に見に行かなければならないので設定にあっていないと考え、評価がない作品、vod対応していない作品を除いた作品を基本データとしました。
 
 
-![base_data](https://github.com/hypknot74/find_good_films/blob/master/base_data.png)
+![base_data](images/base_data.png)
 
 
 
@@ -77,7 +77,7 @@
 とわかりました。
 
 
-![analysis1](https://github.com/hypknot74/find_good_films/blob/master/analysis.png)
+![analysis1](images/analysis.png)
 
 
 
@@ -85,7 +85,7 @@
 ３０あるジャンルから右上に位置する１１このジャンルは評価平均、視聴者平均が高いジャンルである、すなわちコスパの高い作品の割合が大きいジャンルだと考えられます。
 
 
-![analysis2](https://github.com/hypknot74/find_good_films/blob/master/analysis2.png)
+![analysis2](images/analysis2.png)
 
 
 さらに詳しく見ます。\
@@ -95,7 +95,7 @@
 赤で囲まれた箱ひげは図の上側に位置しており、作品数もそれほど多くないことから、上質な作品に出会いやすいジャンルであることがわかります。
 
 
-![analysis3](https://github.com/hypknot74/find_good_films/blob/master/analysis3.png)
+![analysis3](images/analysis3.png)
 
 
 
@@ -104,16 +104,16 @@
 つまり、コスパの良い作品に多く関わっている人物のみを示したものです。
 
 
-![analysis4](https://github.com/hypknot74/find_good_films/blob/master/analysis4.png)
-![analysis5](https://github.com/hypknot74/find_good_films/blob/master/analysis5.png)
-![analysis6](https://github.com/hypknot74/find_good_films/blob/master/analysis6.png)
+![analysis4](images/analysis4.png)
+![analysis5](images/analysis5.png)
+![analysis6](images/analysis6.png)
 
 
 
 以上を踏まえて、良い作品を絞り込むために初期条件としてこれらを用いることにしました。
 
 
-![analysis7](https://github.com/hypknot74/find_good_films/blob/master/analysis7.png)
+![analysis7](images/analysis7.png)
 
 
 
@@ -121,14 +121,14 @@
 上の作品分布は絞り込んだものから評価が３．８以上で視聴者数が１０万人以上のものを載せています。
 
 
-![analysis8](https://github.com/hypknot74/find_good_films/blob/master/analysis8.png)
+![analysis8](images/analysis8.png)
 
 
 
 そこから外れたものが下の表にまとめられています。
 
 
-![analysis9](https://github.com/hypknot74/find_good_films/blob/master/analysis9.png)
+![analysis9](images/analysis9.png)
 
 
 
@@ -136,14 +136,14 @@
 棒線が引かれた項目が削除する必要があった、もしくは実際は不要だった項目です。
 
 
-![analysis10](https://github.com/hypknot74/find_good_films/blob/master/analysis10.png)
+![analysis10](images/analysis10.png)
 
 
 
 これらを除いた結果、変更された条件です。
 
 
-![analysis11](https://github.com/hypknot74/find_good_films/blob/master/analysis11.png)
+![analysis11](images/analysis11.png)
 
 
 
@@ -152,7 +152,7 @@
 変更後は、評価平均、視聴者数平均ともに増加していることがわかり、より良い絞り込み条件になっていることがわかります。
 
 
-![analysis12](https://github.com/hypknot74/find_good_films/blob/master/analysis12.png)
+![analysis12](images/analysis12.png)
 
 
 
@@ -160,7 +160,7 @@
 標準偏差はかなり小さくなったことから作品の質のぶれも抑えられたことがわかります。
 
 
-![analysis13](https://github.com/hypknot74/find_good_films/blob/master/analysis13.png)
+![analysis13](images/analysis13.png)
 
 
 
@@ -168,7 +168,7 @@
 コスパの良い映画を観るための手順を再掲します。
 
 
-![Proposal_Procedure](https://github.com/hypknot74/find_good_films/blob/master/Proposal_Procedure.png)
+![Proposal_Procedure](images/Proposal_Procedure.png)
 
 
 
@@ -180,11 +180,11 @@
 また、極めてコスパの高い作品にはラ・ラ・ランド、グレイテスト・ショーマン、ボヘミアン・ラプソディ、セッション、美女と野獣などのミュージック・ミュージカル映画が多いということがわかりました。
 
 
-![analysis14](https://github.com/hypknot74/find_good_films/blob/master/analysis14.png)
+![analysis14](images/analysis14.png)
 
 
 ## 補足
-webサイトからの情報抽出について、[クローリング](https://github.com/hypknot74/find_good_films/blob/master/crawling.py)と[スクレイピング](https://github.com/hypknot74/find_good_films/blob/master/scraping.py)は別で行いました。\
+webサイトからの情報抽出について、[クローリング](images/crawling.py)と[スクレイピング](images/scraping.py)は別で行いました。\
 クローリングしたのが2020-04-01のため、情報は若干古いかもしれないです。\
 分析に関してはpandasを利用してデータの整理などをしました。図表はMatplotlibで作成しました。
 
